@@ -4,7 +4,6 @@ from rest_framework.routers import DefaultRouter
 
 from .views import CommentViewSet, GroupViewSet, PostViewSet
 
-
 app_name = 'api'
 
 v1_router = DefaultRouter()
